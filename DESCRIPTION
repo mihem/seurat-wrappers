@@ -20,7 +20,6 @@ Description: SeuratWrappers is a collection of community-provided methods and
 License: GPL-3 | file LICENSE
 Remotes: welch-lab/liger,
     hms-dbmi/conos,
-    immunogenomics/harmony,
     immunogenomics/presto,
     satijalab/seurat-data,
     velocyto-team/velocyto.R,
@@ -45,7 +44,8 @@ Imports:
     Seurat (>= 5.0.0),
     stats,
     utils,
-    rlang
+    rlang,
+    R.utils
 Collate:
     'internal.R'
     'alevin.R'
